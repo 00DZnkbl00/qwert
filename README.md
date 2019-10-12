@@ -1,6 +1,8 @@
 # Jezyki programowania
-* [ ] ćoś
-* [ ] ćoś jeszcze
+* [ ] Katalog domowy użytkownika pwd
+* [ ] Ścieżka,ścieżka względna katalog bierzący
+* [ ] Pliki tworzenie usuwanie przenoszenie zmiana nazwy
+* [ ] Polecenia is tree cp cd rm rmlr.
 
 *Hello world*-coś
 **Hello world**-coś
