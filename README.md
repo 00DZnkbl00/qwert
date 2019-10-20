@@ -6,8 +6,9 @@
 * [ ] Polecenia: `ls`, `tree`, `cp`, `mv`, `cd`, `rm`, `rmdir`. Wykonać `man` polecenie. 
  [ ] Polecenia: `ls`, `tree`, `cp`, `mv`, `cd`, `rm`, `rmdir`. Wykonać `man` polecenie. 
 
-*Hello world*-coś
-**Hello world**-coś
+*Hello world*-program, którego jedynym celem jest wypisanie na standardowym wyjściu napisu "Hello World!" lub innego prostego komunikatu.
+
+**Hello world**-program, którego jedynym celem jest wypisanie na standardowym wyjściu napisu "Hello World!" lub innego prostego komunikatu.
 
 ```
 include <sudo.h>
