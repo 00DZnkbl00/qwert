@@ -9,8 +9,8 @@
 *Hello world*-coś
 **Hello world**-coś
 
-'''
+```
 include <sudo.h>
 int main(){
 print("hello world");}
-'''
+```
