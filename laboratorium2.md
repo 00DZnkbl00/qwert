@@ -1,2 +1,2 @@
 # sasadas
-[ ]coś
+* [X] sdadadas
