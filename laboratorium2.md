@@ -19,8 +19,22 @@ grep main Hello.c
 ```
 * [X]  4. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
 
+
 * [ ]  5.Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
-* [ ]  6. Zarchiwizuj cały katalog temp. (zip i tar)
+
+* [ ]  6. Zarchiwizuj cały katalog temp. (zip i tar)cd
+```
+tar -cf temp.tar temp
+
+```
 * [ ]  7. Usuń katalog temp.
+```
+rm -r temp
+
+```
 * [ ]  8. Odtwórz z archiwum katalog temp. (unzip i tar)
+```
+tar -xf temp.tar
+
+```
 * [ ]  9. Posprzątaj na swoim koncie.
