@@ -22,7 +22,7 @@ grep main Hello.c
 chmod 640 fad.md
 
 ```
-* []  5.Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
+* [ ]  5.Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
 ```
 
 ```
