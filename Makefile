@@ -5,6 +5,8 @@ hello_world:
 
 f2c:
 
+all:
+
 clean:
 	rm -f a.out hello_world
 
