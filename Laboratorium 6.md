@@ -16,5 +16,5 @@ egrep -rl "^........r" *
 
 * [ ] 5. Znajdź wiersze zawierające liczby rzymskie w pliku plik.txt.
 ```
-grep -in "^[IVXLCDM]" pl*
+grep -inx '[IVXLCDM]' plik.txt
 ```
