@@ -5,7 +5,7 @@ grep -n "." plik.txt
 ```
 * [x] 2. Znajdź w plikach pl* wiersze rozpoczynające się od cyfry.
 ```
-grep -in "^[0-9]" pl*
+grep -n "^[0-9]" pl*
 ```
 * [x] 3. Znajdź pliki, zawierające wiersz w którym na 9 pozycji występuje litera r.
 ```
@@ -15,3 +15,6 @@ egrep -rl "^........r" *
 
 
 * [ ] 5. Znajdź wiersze zawierające liczby rzymskie w pliku plik.txt.
+```
+grep -in "^[IVXLCDM]" pl*
+```
