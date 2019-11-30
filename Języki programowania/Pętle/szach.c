@@ -21,7 +21,7 @@ void post(int buba,int ob)
 //pion
 int main() {
      int luba=8 ; // wysokość
-      int buba=8 ;  // długość
+      int buba=8 ;  // długość - ilość gwiazdek
       int op=1; // wartość logiczna
     for( int i=1;i<=luba;i++)
     {
