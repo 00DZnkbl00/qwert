@@ -4,7 +4,7 @@ int main()
 {
 char *name="pagero";
 int count=10;
- scanf("%d",count);
+scanf("%lf",count);
 // scanf("%n",name);
  printf("%d\n",count) ;
  for (size_t a=0;a<count;a++)
