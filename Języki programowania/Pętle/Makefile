@@ -5,7 +5,9 @@ LDLIBS=-lm
 
 szach:
 
+porów:
+
 clean:
-	rm -f a.out  2kwadrat szach
+	rm -f a.out  2kwadrat szach porów
 
 
