@@ -5,26 +5,35 @@ void odliczanie(int i,int x)
     {
         printf("%d\n", ++i);
     }
+    printf("fdsfsdf \n");
     
 }
-
-int main() 
+void porownanie(int a, int b)
 {
-    int a=2010;
-    int b=2030;
     if(a<b)
     {
         odliczanie(a,b);
     }
         else if(a>b)
     {
-        odliczanie(a,b);
+        odliczanie(b,a);
     }
     else
     {
         printf("Brak liczb pomiędzy \n");
     }
-    
+}
+int pobranie()
+{
+    int q;
+    scanf("%d",&q);
+    return q;
+}
+int main() 
+{
+    int a=pobranie();
+    int b=pobranie();
+    printf("\n");
+    porownanie(a,b);
     return 0;
 }
- 
