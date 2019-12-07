@@ -1,4 +1,10 @@
 #include <stdio.h>
+int pobranie()
+{
+    int q;
+    scanf("%d",&q);
+    return q;
+}
 //poziom
 void post(int buba,int ob)
 {
@@ -20,8 +26,10 @@ void post(int buba,int ob)
 }
 //pion
 int main() {
-     int luba=8 ; // wysokość
-      int buba=8 ;  // długość - ilość gwiazdek
+      //int luba=8 ; // wysokość
+      //int buba=8 ;  // długość - ilość gwiazdek
+      int luba=pobranie();
+      int buba=pobranie();
       int op=1; // wartość logiczna
     for( int i=1;i<=luba;i++)
     {

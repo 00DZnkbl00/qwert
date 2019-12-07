@@ -9,7 +9,9 @@ porow:
 
 lubelska:
 
+parzyste:
+
 clean:
-	rm -f a.out  2kwadrat szach porow
+	rm -f a.out  2kwadrat szach porow lubelska parzyste
 
 
