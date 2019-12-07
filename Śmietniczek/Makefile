@@ -4,4 +4,4 @@ LDLIBS=-lm
 snake:
 
 clean:
-	rm -f a.out  2kwadrat szach porow lubelska parzyste
+	rm -f a.out  snake
