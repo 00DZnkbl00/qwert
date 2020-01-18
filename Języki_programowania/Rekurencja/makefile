@@ -6,4 +6,4 @@ all: potegowanie
 potegowani:potegowanie.c
 
 clean:
-	rm -f potegowanie 
+	rm -f potegowanie
