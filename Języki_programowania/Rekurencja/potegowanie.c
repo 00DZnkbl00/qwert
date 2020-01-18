@@ -22,4 +22,4 @@ int main(void)
     int n=GetInt(),k=GetInt();
     printf("%d",potegowanie(n,k));
 }
-//
+

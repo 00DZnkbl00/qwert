@@ -3,7 +3,7 @@ LDLIBS=-lm
 
 all: potegowanie
 
-potegowanie:potegowanie.c
+potegowani:potegowanie.c
 
 clean:
 	rm -f potegowanie 
