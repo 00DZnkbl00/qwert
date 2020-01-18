@@ -1,15 +1,14 @@
 #include <stdio.h>
-int pobranie()
+int GetInt()
 {
     int q;
     scanf("%d",&q);
     return q;
 }
-//poziom
-void post(int buba,int ob)
+void Poziom(int lenght,int ob)
 {
             int y=1;
-        while (y<=buba*2)
+        while (y<=lenght*2)
         {
             if(ob==1)
             {
@@ -24,23 +23,20 @@ void post(int buba,int ob)
             y++;
         }
 }
-//pion
 int main() {
-      //int luba=8 ; // wysokość
-      //int buba=8 ;  // długość - ilość gwiazdek
-      int luba=pobranie();
-      int buba=pobranie();
+      int height=GetInt();
+      int lenght=GetInt();
       int op=1; // wartość logiczna
-    for( int i=1;i<=luba;i++)
+    for( int i=1;i<=height;i++)
     {
         if(op==1)
             {
-                post(buba,op);
+                Poziom(lenght,op);
                 op=0;
             }
             else
             {
-                post(buba,op);
+                Poziom(lenght,op);
                 op=1;
             }
         

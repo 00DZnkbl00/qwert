@@ -1,17 +1,25 @@
 CFLAGS=-g -Wall -std=c11
 LDLIBS=-lm
 
-2kwadrat:
+all:2kwadrat szach porow lubelska parzyste tablica min_and_max 4figury
 
-szach:
+2kwadrat:2kwadrat.c
 
-porow:
+szach:szach.c
 
-lubelska:
+porow:porow.c
 
-parzyste:
+lubelska:lubelska.c
+
+parzyste:parzyste.c
+
+tablica:tablica.c
+
+min_and_max:min_and_max.c
+
+4figury:4figury.c
 
 clean:
-	rm -f a.out  2kwadrat szach porow lubelska parzyste
+	rm -f a.out  2kwadrat szach porow lubelska parzyste tablica min_and_max 4figury
 
 

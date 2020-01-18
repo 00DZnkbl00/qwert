@@ -3,5 +3,13 @@ LDLIBS=-lm
 
 snake:
 
+stepik:
+
+cokolwiek:
+
+poiuytr:
+
+opol:
+
 clean:
-	rm -f a.out  snake
+	rm -f a.out  snake stepik cokolwiek poiuytr opol
